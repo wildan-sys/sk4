@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nav 21 - Café & Reservation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-success fixed-top navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">
+          <i class="bi bi-ban-fill"></i> Nav 21
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pesan">Reservasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero bg-success-subtle py-5 mt-5">
+      <div class="container py-4">
+        <div class="row g-3 align-items-center">
+          <div class="col-md">
+            <p class="text-success fs-1 fw-bold">
+              Rasakan sihir dari segelas minuman kami
+            </p>
+            <a href="#pesan" class="btn btn-success">Pesan Meja</a>
+            <a href="#menu" class="btn btn-outline-success">Lihat Menu</a>
+          </div>
+          <div class="col-md text-center">
+            <img
+              src="caffe.jfif"
+              class="w-100 rounded-4 shadow"
+              alt="Cafe Atmosphere"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about py-5">
+      <div class="container py-4">
+        <h2 class="text-center text-success fw-bold">ABOUT US</h2>
+        <h2 class="text-center">Rasakan Kenikmatan di setiap gelas</h2>
+
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-8">
+            <p class="text-justify text-muted fs-5">
+              Rasakan keistimewaan dalam setiap tegukan. Setiap minuman kami
+              diracik dengan bahan pilihan dan sentuhan penuh perhatian untuk
+              menghadirkan perpaduan rasa yang sempurna. Nikmati kesegaran yang
+              bukan sekadar minuman, tetapi sebuah pengalaman istimewa dalam
+              setiap gelas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="menu" class="menu py-5 bg-light">
+      <div class="container py-4">
+        <h4 class="text-center text-success fw-bold">PILIHAN REKOMENDASI</h4>
+        <h2 class="text-center mb-4">Menu favorit Nav 21</h2>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="americano.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Americano"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Americano</h5>
+                  <div class="fw-bold">Rp 20.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Nikmati kesederhanaan yang penuh karakter dalam setiap tegukan
+                  Americano kami.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="cappuccino.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Cappuccino"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Cappuccino</h5>
+                  <div class="fw-bold">Rp 25.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Bold espresso, creamy foam, perfect mood.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="chocolate.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Chocolate"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Chocolate</h5>
+                  <div class="fw-bold">Rp 27.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Manjakan dirimu dengan kelembutan rasa cokelat dalam setiap
+                  tegukan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="dirty.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Dirty Latte"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Dirty Latte</h5>
+                  <div class="fw-bold">Rp 24.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Nikmati sensasi kontras yang memikat dalam setiap tegukan
+                  Dirty Latte.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="matcha latte.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Matcha Latte"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Matcha Latte</h5>
+                  <div class="fw-bold">Rp 24.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Perpaduan matcha dengan susu lembut menghadirkan cita rasa
+                  earthy yang khas dan creamy.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="tea.jpg"
+                class="card-img-top"
+                style="height: 200px; object-fit: cover"
+                alt="Tea"
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="text-success fw-bold">Tea</h5>
+                  <div class="fw-bold">Rp 14.000</div>
+                </div>
+                <p class="card-text text-muted">
+                  Temukan kesegaran sederhana dalam setiap tegukan Tea kami.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="pesan" class="reservasi py-5">
+      <div class="container py-4">
+        <h4 class="text-center text-success fw-bold">RESERVASI MEJA</h4>
+        <h2 class="text-center mb-2">Amankan tempat favorit anda</h2>
+        <p class="text-center fs-5 text-muted mb-4">
+          Isi form berikut untuk melakukan pemesanan tempat dengan cepat
+        </p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-5 bg-success-subtle rounded-4 shadow-sm">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" />
+              </div>
+
+              <div class="mb-3">
+                <label for="Nomor" class="form-label">Nomor Whatsapp</label>
+                <input type="number" class="form-control" id="Nomor" />
+              </div>
+
+              <div class="mb-3">
+                <label for="Tanggal" class="form-label">Tanggal & Waktu</label>
+                <input
+                  type="datetime-local"
+                  class="form-control"
+                  id="Tanggal"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="Jumlah" class="form-label">Jumlah Orang</label>
+                <select class="form-select" id="Jumlah">
+                  <option selected disabled>Pilih Jumlah</option>
+                  <option value="1">1 orang</option>
+                  <option value="2">2-4 orang</option>
+                  <option value="3">Lebih dari 5 orang</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-success w-100 py-2">
+                Selesai
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alamat py-5 bg-success-subtle">
+      <div class="container py-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4">
+            <h4 class="text-success fw-bold">Nav 21</h4>
+            <p class="text-muted fs-6">
+              Tempat terbaik merasakan racikan minuman dan hidangan organik
+              dengan suasana tenang.
+            </p>
+
+            <h6 class="fw-bold mt-3">Jam Operasional</h6>
+            <p class="text-muted mb-1">Senin - Jumat: 12.00 - 22.00</p>
+            <p class="text-muted mb-3">Sabtu - Minggu: 10.00 - 00.00</p>
+
+            <h6 class="fw-bold">Lokasi & Kontak</h6>
+            <p class="text-muted mb-1">Jl. CG No. 09</p>
+            <p class="text-muted">0897-5665-443</p>
+          </div>
+          <div class="col-md-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135478.240288395!2d1.9876791368301592!3d41.38115319062553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f576297baf%3A0x44f65330fe1b04b9!2sCamp%20Nou!5e0!3m2!1sid!2sid!4v1791437448005!5m2!1sid!2sid"
+              width="100%"
+              height="350"
+              style="border: 0"
+              class="rounded-4 shadow-sm"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
